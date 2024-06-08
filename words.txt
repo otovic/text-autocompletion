@@ -1,0 +1,5 @@
+rec
+brojevi
+brojka
+brojke
+brada
