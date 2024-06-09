@@ -4,7 +4,7 @@ import config.UseCaseNoParams;
 
 import java.util.List;
 
-public class ReadWordsUC extends UseCaseNoParams<List<String>> {
+public class ReadWordsUseCase extends UseCaseNoParams<List<String>> {
     final WordReaderService wordReaderService = new WordReaderService();
 
     @Override

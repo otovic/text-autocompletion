@@ -3,3 +3,9 @@ brojevi
 brojka
 brojke
 brada
+broj
+hrana
+hrane
+hraniti
+hranjenje
+hranjenja
