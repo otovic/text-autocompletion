@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c132c05f-c9c5-4ffd-aebd-6c6f7d36bfac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapters/local_data/implementations/WordWriterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/SaveWordUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/SearchUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/local_data/repositories/WordWriterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/local_data/repositories/WordWriterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/node/implementations/NodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/node/implementations/NodeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/node/repositories/NodeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/node/repositories/NodeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/usecases/ReadWordsUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usecases/ReadWordsUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +29,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2hYtPd11vRfIWmPzVf5ISrwCz0N" />
@@ -76,6 +69,7 @@
       <workItem from="1717782818213" duration="5410000" />
       <workItem from="1717876277779" duration="7216000" />
       <workItem from="1717963004908" duration="8199000" />
+      <workItem from="1718099015298" duration="1715000" />
     </task>
     <servers />
   </component>

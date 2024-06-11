@@ -54,6 +54,7 @@ public class Main {
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
+                    if (words.isEmpty()) return;
                     if (i + 1 >= words.size()) i = 0;
                     else i++;
 
@@ -61,6 +62,12 @@ public class Main {
                     prediction = prediction.substring(word.length());
                     label.setText("<html> <font color='red'>" + word + "</font><font color='blue'>" + prediction  + "</font></html>");
                 } else if (e.getKeyCode() == KeyEvent.VK_BACK_SPACE) {
+                    if (word.isEmpty()) {
+                        words = new ArrayList<>(List.of());
+                        i = 0;
+                        label.setText("");
+                        return;
+                    }
                     word = word.substring(0, word.length() - 1);
                     words = searchUseCase.call(new AddChildParam(finalRoot, word));
                     String prediction = (i >= 0 && i < words.size()) ? words.get(i) : "";
@@ -78,6 +85,7 @@ public class Main {
                     }
                 }
                 else {
+                    i = 0;
                     String text = label.getText();
                     if (text.isEmpty()) {
                         word += e.getKeyChar();
